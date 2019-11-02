@@ -1,6 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
-    @name.upcase = "Matt"
+    @name = "Matt".upcase
     @time = Time.current
   end
   
